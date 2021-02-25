@@ -22,14 +22,15 @@
     "extends": null,
     "protocols": [
       {
-        "name": "testbrim",
+        "name": "brim",
         "schemes": [
-          "testbrim"
+          "brim"
         ]
       }
     ],
     "win": {
-      "target": "nsis"
+      "target": "nsis",
+      "icon": "./dist/static/AppIcon.ico"
     }
   },
   "scripts": {
